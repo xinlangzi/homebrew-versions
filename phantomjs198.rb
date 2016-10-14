@@ -13,7 +13,7 @@ class Phantomjs198 < Formula
   depends_on "openssl"
 
   # https://github.com/Homebrew/homebrew/issues/42249
-  depends_on MaximumMacOSRequirement => :yosemite
+  depends_on MaximumMacOSRequirement => :sierra
 
   def install
     if MacOS.prefer_64_bit?
